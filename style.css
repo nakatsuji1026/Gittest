@@ -1,13 +1,7 @@
-.item {
-    background: #0bd;
-    color: #fff;
-    margin: 10px;
-    padding: 10px;
+.menew {
+    max-width: 300px;
+ display: flex; 
+ flex-wrap: wrap;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-    height: 300px;
 }
