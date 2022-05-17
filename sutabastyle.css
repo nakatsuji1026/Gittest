@@ -1,0 +1,56 @@
+#contents {
+    width: 1280px;
+    height: 960px;
+    display: flex;
+    
+}
+
+header {
+    width: 100px;
+    
+
+}
+
+header a {
+    padding-left: 10px;
+}
+
+nav p {
+    justify-content: center;
+    margin: 50px 0 0 20px
+}
+
+
+#main {
+    width: 540px;
+    background-color: rgba(194, 194, 194, 0.418);
+   
+
+}
+
+.subimage {
+    display: flex;
+    gap: 5px;
+}
+
+#sub {
+    width: 540px;
+    background-color: rgba(194, 194, 194, 0.418);
+    border: 2px solid blue;
+}
+.submain p {
+    width: 250px;
+    /* border: 2px solid rgb(238, 140, 12); */
+    font-size: 13px;
+    display: flex;
+    padding: 10px 20px ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    
+    
+
+}
+
+#footer {
+    width: 100px;
+}
