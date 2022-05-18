@@ -23,7 +23,7 @@ nav p {
 
 #main {
     width: 540px;
-    background-color: rgba(194, 194, 194, 0.418);
+    background-color: rgba(236, 236, 236, 0.418);
    
 
 }
@@ -34,11 +34,11 @@ nav p {
 }
 
 #sub {
-    width: 540px;
-    background-color: rgba(194, 194, 194, 0.418);
-    border: 2px solid blue;
+    width: 500px;
+    background-color: rgba(236, 236, 236, 0.418);
+    /* border: 2px solid blue; */
 }
-.submain p {
+#submain p {
     width: 250px;
     /* border: 2px solid rgb(238, 140, 12); */
     font-size: 13px;
@@ -46,9 +46,63 @@ nav p {
     padding: 10px 20px ;
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
-    
-    
+}
+.subnews {
+    color: rgb(202, 140, 25);
+    padding: 30px 70px 0px 10px;
+    font-size: 13px;
+}
+#submain h2 {
+    font-size: 15px;
+    padding-left: 20px;
+}
+#subpick .subpick {
+    width: 130px;
+    height: 40px;
+    font-size: 11px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    display: flex;
+    position: absolute;
+    top: 210px;
+    right: 130px;
+}
+.subpick2 {
+    width: 130px;
+    height: 80px;
+    font-size: 11px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    display: flex;
+    position: absolute;
+    top: 280px;
+    right: 130px;
+}
+.subpick3 {
+    width: 130px;
+    height: 70px;
+    font-size: 11px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    display: flex;
+    position: absolute;
+    top: 390px;
+    right: 130px
+}
+.subpick4 {
+    width: 130px;
+    height: 70px;
+    font-size: 11px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    display: flex;
+    position: absolute;
+    top: 490px;
+    right: 130px
+}
 
+#subpick a {
+    padding-left: 2px;
 }
 
 #footer {
